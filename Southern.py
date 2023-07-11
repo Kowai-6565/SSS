@@ -5,18 +5,17 @@ import streamlit as st
 import os
 import os.path as op
 from torchvision import models, transforms
-st.set_page_config(layout="centered")
-col1, col2, col3 = st.columns(3)
 
+
+st.set_page_config(layout="centered")
+
+col1, col2, col3 = st.columns(3)
 with col1:
     st.write(' ')
-
 with col2:
     st.title("Pak-tAI")
 with col3:
     st.write(' ')
-
-
 
 st.write("")
 file_up = st.file_uploader("Upload an image", type="jpg")
@@ -76,8 +75,8 @@ if file_up is not None:
 
         _, predict = torch.max(outputs, 1)
         pred_id = predict.item()
-        st.title('ชนิดอาหาร:', model.food_class[pred_id])
-        st.write(pred_id)
+        st.write('ชนิดอาหาร:', model.food_class[pred_id])
+        
         if pred_id == 0:
             st.image('Nutrition/0.PNG')
 
