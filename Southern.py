@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write(' ')
 with col2:
-    st.title("Pak-tAI")
+    st.title(" Puk-tAI ''ปักษ์ใต้'' )")
 with col3:
     st.write(' ')
 
