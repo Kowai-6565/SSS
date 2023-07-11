@@ -7,7 +7,7 @@ import os.path as op
 from torchvision import models, transforms
 st.set_page_config(layout="centered")
 st.title("Pak-tAI")
-st.image('Nutrition/0.PNG')
+
 
 st.write("")
 file_up = st.file_uploader("Upload an image", type="jpg")
@@ -69,8 +69,8 @@ if file_up is not None:
         pred_id = predict.item()
         st.write('ชนิดอาหาร:', model.food_class[pred_id])
         st.write(pred_id)
-        '''if pred_id == 0:
-            st.image('Nutrition/0.PNG')'''
+        if pred_id == 0:
+            st.image('Nutrition/0.PNG')
 
         '''if pred_id == 1:
             st.image('Nutrition/1.PNG')
