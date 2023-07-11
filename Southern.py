@@ -68,58 +68,58 @@ if file_up is not None:
         pred_id = predict.item()
         st.write('ชนิดอาหาร:', model.food_class[pred_id])
         if pred_id == 0:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/0.PNG')
 
         if pred_id == 1:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/1.PNG')
 
         if pred_id == 2:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/2.PNG')
 
         if pred_id == 3:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/3.PNG')
 
         if pred_id == 4:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/4.PNG')
 
         if pred_id == 5:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/5.PNG')
 
         if pred_id == 6:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/6.PNG')
 
         if pred_id == 7:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/7.PNG')
 
         if pred_id == 8:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/8.PNG')
 
         if pred_id == 9:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/9.PNG')
 
         if pred_id == 10:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/10.PNG')
 
         if pred_id == 11:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/11.PNG')
 
         if pred_id == 12:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/12.PNG')
 
         if pred_id == 13:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/13.PNG')
 
         if pred_id == 14:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/14.PNG')
 
         if pred_id == 15:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/15.PNG')
 
         if pred_id == 16:
-            st.image('nutrition.jpg')
+            st.image('Nutrition/16.PNG')
 
         if pred_id == 17:
-            st.image('nutrition.jpg')  
+            st.image('Nutrition/17.PNG')  
 
     os.remove(temp_file_path)
 else:
