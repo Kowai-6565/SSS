@@ -25,13 +25,8 @@ with col2:
 with col3:
     st.write(' ')    
 
-col1, col2, col3 = st.columns(3)
-with col1:
-    st.write(' ')
-with col2:
-    st.write(" AI คัดเเยกรูปภาพอาหารใต้ พร้อมบอกค่าโภชนาการ รสชาติ และส่วนประกอบของอาหาร ")    
-with col3:
-    st.write(' ')
+
+st.write(" AI คัดเเยกรูปภาพอาหารใต้ พร้อมบอกค่าโภชนาการ รสชาติ และส่วนประกอบของอาหาร ")    
 
 st.write("")
 
