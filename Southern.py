@@ -7,6 +7,7 @@ import os.path as op
 from torchvision import models, transforms
 st.set_page_config(layout="centered")
 st.title("Pak-tAI")
+st.image('Nutrition/0.PNG')
 
 st.write("")
 file_up = st.file_uploader("Upload an image", type="jpg")
