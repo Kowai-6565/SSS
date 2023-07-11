@@ -119,7 +119,7 @@ if file_up is not None:
             st.image('Nutrition/16.PNG')
 
         if pred_id == 17:
-            st.image('Nutrition/17.PNG')  
+            st.image('17.PNG')  
 
     os.remove(temp_file_path)
 else:
