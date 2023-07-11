@@ -76,7 +76,7 @@ if file_up is not None:
 
         _, predict = torch.max(outputs, 1)
         pred_id = predict.item()
-        st.write('ชนิดอาหาร:', model.food_class[pred_id])
+        st.title('ชนิดอาหาร:', model.food_class[pred_id])
         st.write(pred_id)
         if pred_id == 0:
             st.image('Nutrition/0.PNG')
