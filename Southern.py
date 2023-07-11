@@ -6,7 +6,16 @@ import os
 import os.path as op
 from torchvision import models, transforms
 st.set_page_config(layout="centered")
-st.title("Pak-tAI")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.title("Pak-tAI")
+with col3:
+    st.write(' ')
+
 
 
 st.write("")
@@ -72,7 +81,7 @@ if file_up is not None:
         if pred_id == 0:
             st.image('Nutrition/0.PNG')
 
-        '''if pred_id == 1:
+        if pred_id == 1:
             st.image('Nutrition/1.PNG')
 
         if pred_id == 2:
@@ -121,7 +130,7 @@ if file_up is not None:
             st.image('Nutrition/16.PNG')
 
         if pred_id == 17:
-            st.image('Nutrition/17.PNG')  '''
+            st.image('Nutrition/17.PNG')  
 
     os.remove(temp_file_path)
 else:
