@@ -13,11 +13,28 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write(' ')
 with col2:
-    st.title(" Puk-tAI ''ปักษ์ใต้'' )")
+    st.title(" Puk-tAI  ")    
+with col3:
+    st.write(' ')
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write(' ')
+with col2:
+    st.title("ปักษ์ใต้")    
+with col3:
+    st.write(' ')    
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write(' ')
+with col2:
+    st.write(" AI คัดเเยกรูปภาพอาหารใต้ พร้อมบอกค่าโภชนาการ รสชาติ และส่วนประกอบของอาหาร ")    
 with col3:
     st.write(' ')
 
 st.write("")
+
 file_up = st.file_uploader("Upload an image", type="jpg")
 
 transform_test = transforms.Compose([
