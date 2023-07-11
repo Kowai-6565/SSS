@@ -70,7 +70,7 @@ if file_up is not None:
         if pred_id == 0:
             st.image('Nutrition/0.PNG')
 
-        if pred_id == 1:
+        '''if pred_id == 1:
             st.image('Nutrition/1.PNG')
 
         if pred_id == 2:
@@ -119,7 +119,7 @@ if file_up is not None:
             st.image('Nutrition/16.PNG')
 
         if pred_id == 17:
-            st.image('17.PNG')  
+            st.image('Nutrition/17.PNG')  '''
 
     os.remove(temp_file_path)
 else:
