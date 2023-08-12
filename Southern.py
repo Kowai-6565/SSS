@@ -91,8 +91,6 @@ if file_up is not None:
         
         if pred_id == 0:
             st.image('Nutrition/0.PNG')
-            st.title("Picture Pop-up Example")
-    
             if st.button("Give me example"):
                 st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
