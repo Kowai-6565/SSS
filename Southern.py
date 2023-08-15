@@ -91,59 +91,154 @@ if file_up is not None:
         
         if pred_id == 0:
             st.image('Nutrition/0.PNG')
-            if st.button("Give me example"):
+            if st.button("เเนะนําวิธีการกิน"):
                 st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image('Recipe/01/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
+                
+                st.title("STEP 1 : ต้มสมุนไพร ")
+                st.write("ตั้งน้ำให้เดือดจัด นำเครื่องสมุนไพรที่บุบเตรียมไว้ใส่ลงไป")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.image('Recipe/01/2.JPG', caption="บุบสมุนไพรให้แหลก", use_column_width=True)
+                with col2:
+                    st.image('Recipe/01/3.JPG', caption="ต้มสมุนไพรให้มีกลิ่นหอม", use_column_width=True)    
+                
+                st.title("STEP 2 :  ใส่เนื้อไก่ ")
+                st.write("นําเนื้อไก่ใส่ลงไป เเล้วเบาไฟ เพื่อให้นํ้าซุบใส ปรุงรสด้วยเกลือ นํ้าปลา")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.image('Recipe/01/4.JPG', caption="ใส่เนื้อไก่ลงไป", use_column_width=True)
+                with col2:
+                    st.image('Recipe/01/5.JPG', caption="ปรุงรสด้วยเกลือเเละนํ้าปลา", use_column_width=True)
+                
+                st.title("STEP  3: จัดเสิร์ฟ ")
+                st.write("คอยช้อนฟองออกเพื่อให้นํ้าใส เคี่ยวไปเรื่อยๆ จนเนื้อไก่เปื่อยนุ่ม เเละความหวานหอมจากสมุนไพรออกมาทั่วนํ้าซุป จึงค่อยๆตักเสิร์ฟร้อนๆ")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.image('Recipe/01/6.JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
+                with col2:
+                    st.image('Recipe/01/7.JPG', caption="ไก่นุ่มนํ้าเเกงหรอย ซดคล่องคอ!", use_column_width=True)    
+               
 
         if pred_id == 1:
             st.image('Nutrition/1.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 2:
             st.image('Nutrition/2.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 3:
             st.image('Nutrition/3.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 4:
             st.image('Nutrition/4.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 5:
             st.image('Nutrition/5.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 6:
             st.image('Nutrition/6.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 7:
             st.image('Nutrition/7.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 8:
             st.image('Nutrition/8.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 9:
             st.image('Nutrition/9.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 10:
             st.image('Nutrition/10.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 11:
             st.image('Nutrition/11.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 12:
             st.image('Nutrition/12.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 13:
             st.image('Nutrition/13.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 14:
             st.image('Nutrition/14.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 15:
             st.image('Nutrition/15.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 16:
             st.image('Nutrition/16.PNG')
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
 
         if pred_id == 17:
-            st.image('Nutrition/17.PNG')  
+            st.image('Nutrition/17.PNG') 
+            if st.button("เเนะนําวิธีการกิน"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            if st.button("วิธีการปรุงอาหาร"):
+                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True) 
 
     os.remove(temp_file_path)
 else:
