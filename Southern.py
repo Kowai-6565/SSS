@@ -329,7 +329,7 @@ if file_up is not None:
                     st.image('Recipe/07/9.JPG', caption="เวลาทานให้คลุกเคล้าเข้ากันเเบบนี้", use_column_width=True)
                 st.image('Recipe/07/10.JPG', caption="พร้อมทานเเล้วครับ", use_column_width=True)
         
-        ## ##
+        ## คั่วกลิ้ง ##
         if pred_id == 7:
             st.image('Nutrition/7.PNG')
             if st.button("เเนะนําวิธีการกิน"):
@@ -342,7 +342,7 @@ if file_up is not None:
                 st.image('Recipe/08/2.JPG', caption="ใส่พริกเเกงลงไปเเล้วผัดให้หอม", use_column_width=True)  
                 
                 st.title("STEP 2 : ใส่หมูสับ + ปรุงรส ")
-                st.write("นำหมูสับที่เตรียมไว้ใส่ลงไปค่ะ ผัดให้หมูสับเข้ากับน้ำพริกแกง ระหว่างนี้เติมน้ำเปล่าต้มสุกที่เตรียมไว้ จะได้ผัดได้ง่ายขึ้น")
+                st.write("นำหมูสับที่เตรียมไว้ใส่ลงไปครับ ผัดให้หมูสับเข้ากับน้ำพริกแกง ระหว่างนี้เติมน้ำเปล่าต้มสุกที่เตรียมไว้ จะได้ผัดได้ง่ายขึ้น")
                 st.write("เมื่อส่วนผสมเข้ากันดีแล้ว ปรุงรสด้วยผงปรุงรสและน้ำปลา ผัดให้เข้ากันอีกครั้ง")
                 st.write("นำพริกไทยอ่อน ตะไคร้ซอย ใบมะกรูดซอย และพริกชี้ฟ้าแดง ใส่ลงไปผัดให้เข้ากัน เมื่อหมูสุกและทุกอย่างเข้ากันดี ปิดไฟได้เลย")
                 col1, col2 = st.columns(2)
@@ -355,43 +355,55 @@ if file_up is not None:
                     st.image('Recipe/08/5.JPG', caption="ปรุงรส", use_column_width=True)
                 with col2:
                     st.image('Recipe/08/6.JPG', caption="เพิ่มความหอมด้วยใบมะกรูด", use_column_width=True)
-                st.title("STEP  3: จัดเสิร์ฟ ")
-                st.write("คอยช้อนฟองออกเพื่อให้นํ้าใส เคี่ยวไปเรื่อยๆ จนเนื้อไก่เปื่อยนุ่ม เเละความหวานหอมจากสมุนไพรออกมาทั่วนํ้าซุป จึงค่อยๆตักเสิร์ฟร้อนๆ")
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image('Recipe/01/6.JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
+                    st.image('Recipe/08/7.JPG', caption="เพิ่มสีสันด้วยพริกชี้ฟ้าเเดง", use_column_width=True)
                 with col2:
-                    st.image('Recipe/01/7.JPG', caption="ไก่นุ่มนํ้าเเกงหรอย ซดคล่องคอ!", use_column_width=True)    
+                    st.image('Recipe/08/8.JPG', caption="ผัดให้เข้ากัน เเค่นี้ก็พร้อมทานเเล้ว", use_column_width=True)
+                st.title("STEP  3: จัดเสิร์ฟ ")
+                st.write("นำคั่วกลิ้งหมูที่สุกแล้วจัดเสิร์ฟใส่จาน ตกแต่งด้วยใบโหระพา พริกชี้ฟ้าแดงซอย และใบมะกรูดซอย กินกับผักเครื่องเคียงตามชอบได้เลยครับ")
+                st.image('Recipe/08/9 .JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
+
+        ## ใบเหลียงต้มกะทิ ##        
         if pred_id == 8:
             st.image('Nutrition/8.PNG')
             if st.button("เเนะนําวิธีการกิน"):
                 st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
-                st.image('Recipe/01/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
+                st.image('Recipe/09/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
-                st.title("STEP 1 : ต้มสมุนไพร ")
-                st.write("ตั้งน้ำให้เดือดจัด นำเครื่องสมุนไพรที่บุบเตรียมไว้ใส่ลงไป")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image('Recipe/01/2.JPG', caption="บุบสมุนไพรให้แหลก", use_column_width=True)
-                with col2:
-                    st.image('Recipe/01/3.JPG', caption="ต้มสมุนไพรให้มีกลิ่นหอม", use_column_width=True)    
+                st.title("STEP 1 : เตรียมเครื่องเเกง ")
+                st.write("นำใบเหลียงที่เตรียมไว้ล้างน้ำให้สะอาด สะบัดให้สะเด็ดน้ำ เลือกเอาใบอ่อน ๆ ไม่แก่ จะใช้มีดหรือกรรไรตัดให้เล็กลงก็ได้")
+                st.write("นำกุ้งสดล้างน้ำให้สะอาด จากนั้นปอกเปลือกออก แล้วผ่าหลังดึงเส้นดำออก ล้างน้ำอีกครั้งพักไว้")
+            
                 
-                st.title("STEP 2 :  ใส่เนื้อไก่ ")
-                st.write("นําเนื้อไก่ใส่ลงไป เเล้วเบาไฟ เพื่อให้นํ้าซุบใส ปรุงรสด้วยเกลือ นํ้าปลา")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image('Recipe/01/4.JPG', caption="ใส่เนื้อไก่ลงไป", use_column_width=True)
-                with col2:
-                    st.image('Recipe/01/5.JPG', caption="ปรุงรสด้วยเกลือเเละนํ้าปลา", use_column_width=True)
+                st.title("STEP 2 : โขลกส่วนผสม ")
+                st.write("นำหอมแดง กะปิ และพริกไทยขาวมาโขลกให้ละเอียด")
+                st.image('Recipe/09/2.JPG', caption="ทำการโขลก หอมแดง กะปิ และพริกไทยขาว", use_column_width=True)
                 
-                st.title("STEP  3: จัดเสิร์ฟ ")
-                st.write("คอยช้อนฟองออกเพื่อให้นํ้าใส เคี่ยวไปเรื่อยๆ จนเนื้อไก่เปื่อยนุ่ม เเละความหวานหอมจากสมุนไพรออกมาทั่วนํ้าซุป จึงค่อยๆตักเสิร์ฟร้อนๆ")
+
+                st.title("STEP  3: ลงมือเเกง ")
+                st.write("ตั้งหม้อโดยใช้ไฟกลาง ใส่หัวกะทิลงไป รอให้กะทิเดือดอ่อน ๆ ใส่เครื่องแกงที่โขลกไว้ลงไปคนให้เข้ากันค่ะ จากนั้นใส่กุ้งแห้งตามลงไป รอจนกะทิเดือดอีกครั้ง")
+                st.write("หลังจากนั้นเติมหางกะทิลงไปอีก รอจนน้ำแกงเดือดอีกครั้ง")
+                st.write("เมื่อกะทิเดือดแล้วนำกุ้งสดใส่ลงไป รอจนกุ้งสุกดีแล้ว จึงใส่ใบเหลียงลงไป")
+                st.write("ใช้ทัพพีกดให้ใบเหลียงจมน้ำแกงให้หมด รอให้ใบเหลียงอ่อนตัวลง ทำการปรุงรสด้วยน้ำตาลทรายและเกลือป่น รอให้น้ำแกงเดือด โดยเราจะใช้ไฟกลางนะครับ")
+                st.write("รอให้นำแกงเดือดอ่อน ๆ อีกครั้ง แล้วปิดไฟได้เลย")             
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image('Recipe/01/6.JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
+                    st.image('Recipe/09/3.JPG', caption="ใส่เครื่องเเกงที่โขลกไว้", use_column_width=True)
                 with col2:
-                    st.image('Recipe/01/7.JPG', caption="ไก่นุ่มนํ้าเเกงหรอย ซดคล่องคอ!", use_column_width=True)    
+                    st.image('Recipe/09/4.JPG', caption="ตามด้วยหางกะทิ", use_column_width=True)
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.image('Recipe/09/5.JPG', caption="ใส่ใบเหลียง", use_column_width=True)
+                with col2:
+                    st.image('Recipe/09/6.JPG', caption="เรียบร้อยครับ", use_column_width=True)    
+
+                st.title("STEP 4: จัดเสิร์ฟ ")
+                st.write("นำใบเหลียงต้มกะทิตักใส่ชาม พร้อมเสิร์ฟได้เลย")
+                st.image('Recipe/09/7.JPG', caption="เตรียมจัดเสิร์ฟได้เลย", use_column_width=True)
+
+
 
         if pred_id == 9:
             st.image('Nutrition/9.PNG')
