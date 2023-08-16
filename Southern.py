@@ -410,64 +410,52 @@ if file_up is not None:
             if st.button("เเนะนําวิธีการกิน"):
                 st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
-                st.image('Recipe/01/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
+                st.image('Recipe/10/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
-                st.title("STEP 1 : ต้มสมุนไพร ")
-                st.write("ตั้งน้ำให้เดือดจัด นำเครื่องสมุนไพรที่บุบเตรียมไว้ใส่ลงไป")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image('Recipe/01/2.JPG', caption="บุบสมุนไพรให้แหลก", use_column_width=True)
-                with col2:
-                    st.image('Recipe/01/3.JPG', caption="ต้มสมุนไพรให้มีกลิ่นหอม", use_column_width=True)    
+                st.title("STEP 1 : คั่วอบเชย โป๊ยกั๊ก พริกไทยดำ-ขาว ")
+                st.write("โดยการให้มีกลิ่นหอม แล้วนำมาตำให้ละเอียด ใส่รากผักชี กระเทียม และเกลือนิดหน่อย ลงไปตำให้เข้ากันสำหรับหมักหมูสามชั้น ")
+                st.image('Recipe/10/2.JPG', caption="คั่วอบเชย โป๊ยกั๊ก พริกไทยดำ-ขาว ", use_column_width=True)
+               
                 
-                st.title("STEP 2 :  ใส่เนื้อไก่ ")
-                st.write("นําเนื้อไก่ใส่ลงไป เเล้วเบาไฟ เพื่อให้นํ้าซุบใส ปรุงรสด้วยเกลือ นํ้าปลา")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image('Recipe/01/4.JPG', caption="ใส่เนื้อไก่ลงไป", use_column_width=True)
-                with col2:
-                    st.image('Recipe/01/5.JPG', caption="ปรุงรสด้วยเกลือเเละนํ้าปลา", use_column_width=True)
+                st.title("STEP 2 : หมูสามชั้นหั่นชิ้นหนาประมาณ 2นิ้ว ")
+                st.write("หมักให้เข้าเนื้อด้วยเครื่องที่ตำไว้ ปรุงรสด้วยซีอิ้วขาว ซีอิ้วดำ น้ำตาลทรายแดง น้ำตาลปิ๊ป และเกลือเล็กน้อย ")
+                st.image('Recipe/10/3.JPG', caption="หมักหมูให้เข้ากัน", use_column_width=True)
                 
-                st.title("STEP  3: จัดเสิร์ฟ ")
-                st.write("คอยช้อนฟองออกเพื่อให้นํ้าใส เคี่ยวไปเรื่อยๆ จนเนื้อไก่เปื่อยนุ่ม เเละความหวานหอมจากสมุนไพรออกมาทั่วนํ้าซุป จึงค่อยๆตักเสิร์ฟร้อนๆ")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image('Recipe/01/6.JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
-                with col2:
-                    st.image('Recipe/01/7.JPG', caption="ไก่นุ่มนํ้าเเกงหรอย ซดคล่องคอ!", use_column_width=True)    
+                st.title("STEP 3: ผัดหมูสามชั้นที่หมักไว้ ")
+                st.write("ผัดหมูสามชั้นที่หมักไว้ในกระทะให้พอผิวด้านนอกสุกนิดหน่อย.. แล้วเติมน้ำลงไปใส่ซุปหมูก้อนคนอร์เพิ่มความหอมกลมกล่อม..เคี่ยวให้หมูเปื่อยนุ่มดีใช้เวลาประมาณ 1ชม. น้ำจะงวดลงเข้าเนื้อหมูเข้มข้น..หอมหวลชวนกินเป็นอันเสร็จ ")
+                
+                st.image('Recipe/10/4.JPG', caption="ผัดให้เข้ากัน", use_column_width=True)    
 
+
+                st.title("STEP 4 : จัดเสิร์ฟ ")
+                st.write("หมูฮ้อง หอม ๆ รสชาติเค็มนำหวาน หอมกลิ่นเครื่องเทศต่าง ๆ เปื่อยนุ่มกำลังดี ")
+                st.image('Recipe/10/5.JPG', caption="หมูฮ้องพร้อมเสิร์ฟเเล้ว", use_column_width=True)
 
         if pred_id == 10:
             st.image('Nutrition/10.PNG')
             if st.button("เเนะนําวิธีการกิน"):
                 st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
-                st.image('Recipe/01/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
+                st.image('Recipe/11/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
-                st.title("STEP 1 : ต้มสมุนไพร ")
-                st.write("ตั้งน้ำให้เดือดจัด นำเครื่องสมุนไพรที่บุบเตรียมไว้ใส่ลงไป")
+                st.title("STEP 1 : โขลกเครื่องให้ละเอียด ")
+                st.write("ใส่พริกขี้หนู พริกแดง กระเทียม น้ำตาลทราย ลงไปตำให้แหลก ตามด้วยกะปิ ตำให้เข้ากัน")
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image('Recipe/01/2.JPG', caption="บุบสมุนไพรให้แหลก", use_column_width=True)
+                    st.image('Recipe/11/2.JPG', caption="ใส่พริกขี้หนู พริกแดง กระเทียม น้ำตาลทราย ลงไปตำ", use_column_width=True)
                 with col2:
-                    st.image('Recipe/01/3.JPG', caption="ต้มสมุนไพรให้มีกลิ่นหอม", use_column_width=True)    
+                    st.image('Recipe/11/3.JPG', caption="ใส่กะปิตามลงไป ตำให้เข้ากัน", use_column_width=True)    
                 
-                st.title("STEP 2 :  ใส่เนื้อไก่ ")
-                st.write("นําเนื้อไก่ใส่ลงไป เเล้วเบาไฟ เพื่อให้นํ้าซุบใส ปรุงรสด้วยเกลือ นํ้าปลา")
+                st.title("STEP 2 : ปรุงรสน้ำพริก ")
+                st.write("ปรุงรสน้ำพริกกะปิด้วยน้ำปลา และน้ำมะนาว")
+                st.write("ใส่มะเขือพวงลงไป เท่านี้ก็เสร็จ จัดเสิร์ฟได้เลย")
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image('Recipe/01/4.JPG', caption="ใส่เนื้อไก่ลงไป", use_column_width=True)
+                    st.image('Recipe/11/4.JPG', caption="ปรุงรสด้วยน้ำปลาและน้ำมะนาว", use_column_width=True)
                 with col2:
-                    st.image('Recipe/01/5.JPG', caption="ปรุงรสด้วยเกลือเเละนํ้าปลา", use_column_width=True)
+                    st.image('Recipe/11/5.JPG', caption="จัดเสิร์ฟได้เลย", use_column_width=True)
                 
-                st.title("STEP  3: จัดเสิร์ฟ ")
-                st.write("คอยช้อนฟองออกเพื่อให้นํ้าใส เคี่ยวไปเรื่อยๆ จนเนื้อไก่เปื่อยนุ่ม เเละความหวานหอมจากสมุนไพรออกมาทั่วนํ้าซุป จึงค่อยๆตักเสิร์ฟร้อนๆ")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image('Recipe/01/6.JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
-                with col2:
-                    st.image('Recipe/01/7.JPG', caption="ไก่นุ่มนํ้าเเกงหรอย ซดคล่องคอ!", use_column_width=True)    
-
+                
         if pred_id == 11:
             st.image('Nutrition/11.PNG')
             if st.button("เเนะนําวิธีการกิน"):
