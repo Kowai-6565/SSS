@@ -335,11 +335,11 @@ if file_up is not None:
             if st.button("เเนะนําวิธีการกิน"):
                 st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
-                st.image('Recipe/08/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
+                st.image('Recipe/08/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
                 st.title("STEP 1 : ผัดพริกเเกง ")
                 st.write("ตั้งกระทะโดยใช้ไฟกลาง พอกระทะร้อนใส่น้ำมันลงไปตามด้วยพริกแกงคั่วกลิ้ง ผัดให้มีกลิ่นหอม")
-                st.image('Recipe/08/2.JPG', caption="ใส่พริกเเกงลงไปเเล้วผัดให้หอม", use_column_width=True)  
+                st.image('Recipe/08/2.WEBP', caption="ใส่พริกเเกงลงไปเเล้วผัดให้หอม", use_column_width=True)  
                 
                 st.title("STEP 2 : ใส่หมูสับ + ปรุงรส ")
                 st.write("นำหมูสับที่เตรียมไว้ใส่ลงไปครับ ผัดให้หมูสับเข้ากับน้ำพริกแกง ระหว่างนี้เติมน้ำเปล่าต้มสุกที่เตรียมไว้ จะได้ผัดได้ง่ายขึ้น")
@@ -347,9 +347,9 @@ if file_up is not None:
                 st.write("นำพริกไทยอ่อน ตะไคร้ซอย ใบมะกรูดซอย และพริกชี้ฟ้าแดง ใส่ลงไปผัดให้เข้ากัน เมื่อหมูสุกและทุกอย่างเข้ากันดี ปิดไฟได้เลย")
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image('Recipe/08/3.JPG', caption="ใส่เนื้อไก่ลงไป", use_column_width=True)
+                    st.image('Recipe/08/3.WEBP', caption="ใส่เนื้อไก่ลงไป", use_column_width=True)
                 with col2:
-                    st.image('Recipe/08/4.JPG', caption="ปรุงรสด้วยเกลือเเละนํ้าปลา", use_column_width=True)
+                    st.image('Recipe/08/4.WEBP', caption="ปรุงรสด้วยเกลือเเละนํ้าปลา", use_column_width=True)
                 col1, col2 = st.columns(2)
                 with col1:
                     st.image('Recipe/08/5.JPG', caption="ปรุงรส", use_column_width=True)
@@ -357,12 +357,12 @@ if file_up is not None:
                     st.image('Recipe/08/6.JPG', caption="เพิ่มความหอมด้วยใบมะกรูด", use_column_width=True)
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.image('Recipe/08/7.JPG', caption="เพิ่มสีสันด้วยพริกชี้ฟ้าเเดง", use_column_width=True)
+                    st.image('Recipe/08/7.WEBP', caption="เพิ่มสีสันด้วยพริกชี้ฟ้าเเดง", use_column_width=True)
                 with col2:
                     st.image('Recipe/08/8.JPG', caption="ผัดให้เข้ากัน เเค่นี้ก็พร้อมทานเเล้ว", use_column_width=True)
                 st.title("STEP  3: จัดเสิร์ฟ ")
                 st.write("นำคั่วกลิ้งหมูที่สุกแล้วจัดเสิร์ฟใส่จาน ตกแต่งด้วยใบโหระพา พริกชี้ฟ้าแดงซอย และใบมะกรูดซอย กินกับผักเครื่องเคียงตามชอบได้เลยครับ")
-                st.image('Recipe/08/9 .JPG', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
+                st.image('Recipe/08/9 .WEBP', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
 
         ## ใบเหลียงต้มกะทิ ##        
         if pred_id == 8:
