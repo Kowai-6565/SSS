@@ -362,7 +362,7 @@ if file_up is not None:
                     st.image('Recipe/08/8.JPG', caption="ผัดให้เข้ากัน เเค่นี้ก็พร้อมทานเเล้ว", use_column_width=True)
                 st.title("STEP  3: จัดเสิร์ฟ ")
                 st.write("นำคั่วกลิ้งหมูที่สุกแล้วจัดเสิร์ฟใส่จาน ตกแต่งด้วยใบโหระพา พริกชี้ฟ้าแดงซอย และใบมะกรูดซอย กินกับผักเครื่องเคียงตามชอบได้เลยครับ")
-                st.image('Recipe/08/9 .WEBP', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
+                st.image('Recipe/08/9.WEBP', caption="คอยช้อนฟองออกเพื่อให้นํ้าใส", use_column_width=True)
 
         ## ใบเหลียงต้มกะทิ ##        
         if pred_id == 8:
