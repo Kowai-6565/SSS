@@ -91,7 +91,7 @@ if file_up is not None:
         
         ## เเกงจืดต้มขมิ้น ##
         if pred_id == 0:
-            
+            st.image('Nutrition/0.PNG')
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/01/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -121,6 +121,7 @@ if file_up is not None:
                
         ## เเกงคั่วหอยขม ##
         if pred_id == 1:
+            st.image('Nutrition/1.PNG')
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/02/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -154,6 +155,7 @@ if file_up is not None:
 
         ## ขนมจีนนํ้ายากะทิ ##
         if pred_id == 2:
+            st.image('Nutrition/2.PNG')
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/03/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -185,6 +187,7 @@ if file_up is not None:
         
         ## ไก่กอเเละ ##
         if pred_id == 3:
+           st.image('Nutrition/3.PNG')
            if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/04/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -218,8 +221,6 @@ if file_up is not None:
         ## ไก่ทอด ##
         if pred_id == 4:
             st.image('Nutrition/4.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/05/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
                 st.write("1.ล้างไก่ให้สะอาด พักในตะแกรงให้สะเด็ดน้ำ")
@@ -233,8 +234,6 @@ if file_up is not None:
         ## ไข่ครอบ ##
         if pred_id == 5:
             st.image('Nutrition/5.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/06/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -281,8 +280,6 @@ if file_up is not None:
         ## ##
         if pred_id == 6:
             st.image('Nutrition/6.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/07/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -321,8 +318,6 @@ if file_up is not None:
         ## คั่วกลิ้ง ##
         if pred_id == 7:
             st.image('Nutrition/7.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/08/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -356,8 +351,6 @@ if file_up is not None:
         ## ใบเหลียงต้มกะทิ ##        
         if pred_id == 8:
             st.image('Nutrition/8.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/09/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -396,8 +389,6 @@ if file_up is not None:
         ####
         if pred_id == 9:
             st.image('Nutrition/9.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/10/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -423,8 +414,6 @@ if file_up is not None:
         ####
         if pred_id == 10:
             st.image('Nutrition/10.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/11/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -448,8 +437,6 @@ if file_up is not None:
         ####
         if pred_id == 11:
             st.image('Nutrition/11.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/12/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -482,8 +469,6 @@ if file_up is not None:
 
         if pred_id == 12:
             st.image('Nutrition/12.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/13/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
                 st.write("1. ตำกระเทียมกับขมิ้นให้พอแหลกครับ (ขมิ้นจะมียางหน่อยๆ เวลาตำแล้วจะรู้สึกว่าตำยากนิดๆ ครับ แล้วครกจะเหลืองติดสีไปซักพักเลยครับ)")
@@ -494,8 +479,6 @@ if file_up is not None:
 
         if pred_id == 13:
             st.image('Nutrition/13.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/14/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -531,8 +514,6 @@ if file_up is not None:
         ####
         if pred_id == 14:
             st.image('Nutrition/14.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/15/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -548,8 +529,6 @@ if file_up is not None:
 
         if pred_id == 15:
             st.image('Nutrition/15.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/16/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
@@ -582,8 +561,6 @@ if file_up is not None:
         
         if pred_id == 16:
             st.image('Nutrition/16.PNG')
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/17/1.WEBP', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             st.title("วิธีทํา")
@@ -594,9 +571,7 @@ if file_up is not None:
            
 
         if pred_id == 17:
-            st.image('Nutrition/17.PNG') 
-            if st.button("เเนะนําวิธีการกิน"):
-                st.image("example_picture.jpg", caption="Example Picture", use_column_width=True)
+            st.image('Nutrition/17.PNG')
             if st.button("วิธีการปรุงอาหาร"):
                 st.image('Recipe/18/1.JPG', caption="วัตถุดิบที่ใช้ในการทําอาหาร", use_column_width=True)
             
